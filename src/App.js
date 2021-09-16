@@ -20,7 +20,9 @@ function App() {
 
   const showProducts = () => {
     setFilteredProducts(
-      products.filter((item) => item.name.toLowerCase().includes(inputProduct))
+      products.filter((item) =>
+        item.name.toUpperCase().includes(inputProduct.toUpperCase())
+      )
     );
     setInputProduct("");
   };
