@@ -12,6 +12,7 @@ ul {
   flex-wrap: wrap;
   list-style-type: none;
   justify-content: space-between;
+  padding-inline-start: 0px;
 }
 
 .product {
